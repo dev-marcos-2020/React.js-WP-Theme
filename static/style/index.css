@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Josefin Sans;
+    src: url('../fonts/JosefinSans-Regular.ttf')
+}
+
+.section {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+    
+.background {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+.main-body {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.content {
+    width: 50%;
+}
+
+.divider {
+    width: 10%;
+}
+
+.illustration {
+    width: 40%;
+}
+
+.illustration img {
+    position: relative;
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.icon {
+    width: 80px;
+}
+
+.title {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 34px;
+    color: #4A4A4A;
+}
+
+.description {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    color: #4A4A4A;
+}
+
+/* On screens that are 1750px wide or less */
+@media screen and (max-width: 1024px) {
+    .main-body {
+        width: 740px;
+    }
+    
+    .icon {
+        width: 60px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 26px;
+    }
+
+    .description {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+
+/* On screens that are 1750px wide or less */
+@media screen and (max-width: 768px) {
+    .main-body {
+        width: 400px;
+        display: block;
+    }
+    
+    .icon {
+        width: 50px;
+    }
+        
+    .pullLeft {
+        float: initial;
+    }
+
+    .pullRight {
+        float: initial;
+    }
+
+    .illustration {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .illustration {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
+/* On screens that are 1750px wide or less */
+@media screen and (max-width: 425px) {
+    .main-body {
+        width: 200px;
+    }
+
+    .icon {
+        width: 40px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 26px;
+    }
+
+    .description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
