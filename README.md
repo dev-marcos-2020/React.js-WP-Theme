@@ -27,3 +27,4 @@ You can find detailed information in the docs about using this project, includin
  - Understanding the data structure
  - Building Page Section and Components
  - Adding Images to Pages
+ - Adding sections to Pages
